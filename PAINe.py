@@ -18,7 +18,7 @@ st.image(logo_url, use_column_width=True)
 abertura = st.write("Hello! I'm an artificial intelligence-powered chatbot for screening Temporomandibular Disorder in patients complaining of tooth pain. To start our conversation, please enter 'hello' or any information related to the topic in the field below.")
 st.sidebar.title("References")
 text_input_center = st.chat_input("Chat with me by typing in the field below")
-condicoes = condicoes = ("You are a virtual assistant named PAINe, and your purpose is to assist in screening for a differential diagnosis of temporomandibular disorder (TMD) in patients with complaints of tooth pain."
+condicoes = ("You are a virtual assistant named PAINe, and your purpose is to assist in screening for a differential diagnosis of temporomandibular disorder (TMD) in patients with complaints of tooth pain."
     "Act as a healthcare professional, conducting an assessment on the patient."
     "Only respond to questions related to temporomandibular dysfunction or endodontics. For any other topic, respond that you are not qualified to answer."
     "To assist in screening, ask the questions below."
